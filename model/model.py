@@ -22,7 +22,8 @@ B. Fires duel. Two reconnaissance-fire systems (Blue, Red) in a corps sector, da
 
 C. Trajectories 2025 -> 2036. Logistic adoption of the AI kill web phi(t) moves each performance
    parameter from its 2025 value toward the mature-AI value (geometric interpolation for scales, linear
-   for probabilities), reduced by adversary erosion epsilon. Unit costs follow Wright's law.
+   for probabilities), reduced by adversary erosion epsilon. Unit costs follow Wright's law; AI-era rounds carry
+   a course-correcting fuze on the adopted share phi.
 
 Run: python model.py  -> results.json, draws_*.npz next to this file.
 """
@@ -75,9 +76,10 @@ def side_params(kind, year, n, rng, eps_kind="none"):
     else:
         base, ai = sample_era("2025", n, rng), sample_era("ai", n, rng)
         w = phi(year, lhs_triangular(P.ADOPT["t_mid"][0], n, rng), lhs_triangular(P.ADOPT["k"][0], n, rng))
+        adopt = w
         w = w * (1 - lhs_triangular(P.EROSION[eps_kind][0], n, rng))
         s = {k: blend(base[k], ai[k], w, k in LOG_PARAMS) for k in base}
-        s["w"] = w
+        s["w"], s["adopt"] = w, adopt
     return s
 
 
@@ -103,6 +105,14 @@ def prices(kind, year, n, rng):
     prem = lhs_triangular(L["fpv"]["ai_premium"][0], n, rng)
     c_fpv = f25 * prem * wright("fpv")
     return {"c_round": c_round, "c_fpv": c_fpv, "sortie_mult": wright("sortie")}
+
+
+def fuze_price(year, n, rng):
+    """Course-correcting fuze, USD per round, in a forecast year (Wright's law over the 2025-2036 doublings)."""
+    F = P.FUZE
+    lr = lhs_triangular(F["lr"][0], n, rng)
+    d = lhs_triangular(F["doublings"][0], n, rng) * (year - 2025) / 11.0
+    return lhs_triangular(F["price"][0], n, rng) * (1 - lr) ** d
 
 
 def common(n, rng):
@@ -306,11 +316,18 @@ def run_scenario(sid, kb, kr, year, eps, mode="defence", n=N_DRAWS, seed=SEED):
         g0 = (O["G_att"], O["G_def"])
     cm = common(n, rng)
     pB, pR = prices(kb, year, n, rng), prices(kr, year, n, rng)
+    # course-correcting fuzes on the adopted share of AI-era rounds; a separate stream keeps the other draws intact
+    frng = np.random.default_rng(seed + 1000 + int(sid[1]) + (100 if mode == "offence" else 0))
+    for side, pr in ((B, pB), (R, pR)):
+        adopt = side.pop("adopt", None)
+        if adopt is not None:
+            pr["fuze"] = fuze_price(year, n, frng) * adopt
+            pr["c_round"] = pr["c_round"] + pr["fuze"]
     aB, aR = ammo(kb, "B", n, rng), ammo(kr, "R", n, rng)
     gpm = {s: lhs_triangular(P.GUNS_PER_MISSION[s][0], n, rng) for s in ("B", "R")}
     out = duel(B, R, cm, pB, pR, aB, aR, rng, gpm=gpm, g0=g0)
     inputs = {f"B_{k}": v for k, v in B.items()} | {f"R_{k}": v for k, v in R.items()} | \
-             {f"c_{k}": v for k, v in cm.items()} | {"price_round": pB["c_round"], "price_fpv": pB["c_fpv"],
+             {f"c_{k}": v for k, v in cm.items()} | {"price_round": pB["c_round"], "price_fpv": pB["c_fpv"], "price_fuze": pB.get("fuze", np.zeros(n)),
                                                     "ammo_B": aB, "ammo_R": aR,
                                                     "gpm_B": gpm["B"], "gpm_R": gpm["R"]}
     return out, inputs
@@ -384,6 +401,7 @@ def main():
         if kb == "ai":
             s["phi_B"] = q(inp["B_w"])
             s["price_round_usd"] = q(inp["price_round"])
+            s["price_fuze_usd"] = q(inp["price_fuze"])
             s["price_fpv_usd"] = q(inp["price_fpv"])
         if sid in ("S1", "S3", "S5", "O3"):
             X = np.column_stack([inp[k] for k in SENS_KEYS])

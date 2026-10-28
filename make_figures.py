@@ -161,15 +161,19 @@ def fig3():
     a1.set_ylabel("share of the AI gain realised, $\\varphi(t)$")
     a1.legend(frameon=False, fontsize=7, loc="upper left")
     a1.set_title("(a) adoption of the AI kill web", loc="left")
-    for item, col, ls, lab in (("round", DARK, "-", "155-mm round"), ("fpv", MID, "--", "strike drone (incl. AI premium)"),
+    for item, col, ls, lab in (("round", DARK, "-", "155-mm round"),
+                               ("fuzed", ACC, "-", "round with fuze, adopted share"),
+                               ("fpv", MID, "--", "strike drone (incl. AI premium)"),
                                ("sortie", LIGHT, "-.", "ISR sortie")):
         vals = []
-        for y in years:
+        for iy, y in enumerate(years):
             r = np.random.default_rng(11)
             pr = M.prices("ai", y, n, r)
+            pr["fuzed"] = pr["c_round"] + M.fuze_price(y, n, np.random.default_rng(12)) * ph[iy]
             base = {"round": M.lhs_triangular(P.C_ROUND["2025"][0], n, np.random.default_rng(11)),
                     "fpv": M.lhs_triangular(P.C_FPV["2025"][0], n, np.random.default_rng(11))}
-            v = {"round": pr["c_round"] / np.median(base["round"]), "fpv": pr["c_fpv"] / np.median(base["fpv"]),
+            v = {"round": pr["c_round"] / np.median(base["round"]), "fuzed": pr["fuzed"] / np.median(base["round"]),
+                 "fpv": pr["c_fpv"] / np.median(base["fpv"]),
                  "sortie": pr["sortie_mult"]}[item]
             vals.append(np.quantile(v, [0.05, 0.5, 0.95]))
         vals = np.array(vals)

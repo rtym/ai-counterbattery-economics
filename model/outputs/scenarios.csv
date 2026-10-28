@@ -41,90 +41,90 @@ S1,2025 drone-enabled,defence,p_red_wins,,0.944,
 S1,2025 drone-enabled,defence,p_undecided,,0.023,
 S1,2025 drone-enabled,defence,ammo_bound_B,,0.9473271716309251,
 S1,2025 drone-enabled,defence,mean_cost_battle_musd,,202.04828573705487,
-S2,2033 symmetric AI,defence,days,4.0,7.0,15.0
-S2,2033 symmetric AI,defence,spend_total_musd,5.466906741364768,11.058698068192506,23.760888828812682
-S2,2033 symmetric AI,defence,spend_per_day_musd,0.9734132487422635,1.538298059498151,2.2559547684997785
-S2,2033 symmetric AI,defence,loss_B_musd,32.43803582497162,59.78541707714156,91.88585174454468
-S2,2033 symmetric AI,defence,loss_R_musd,35.24472176512412,86.95765942951843,148.72781658522982
-S2,2033 symmetric AI,defence,cost_exchange,0.5077626106444693,1.164805876073821,2.4949544548261295
-S2,2033 symmetric AI,defence,spend_per_red_gun_destroyed_kusd,214.38386028890025,422.3012446792075,926.8390203139775
-S2,2033 symmetric AI,defence,destroyed_value_per_day_musd,11.054276474590145,19.494181840987885,34.27865687876101
-S2,2033 symmetric AI,defence,burn_per_day_B_musd,5.243776790612268,9.445405659546534,17.530029312366096
-S2,2033 symmetric AI,defence,n_star_B,6.0,10.0,16.0
-S2,2033 symmetric AI,defence,cost_per_kill_A_kusd,124.80652602921812,252.29368985635355,531.9680992885222
-S2,2033 symmetric AI,defence,p_kill_B,0.16324152948269044,0.27833754696672175,0.42148833498341115
+S2,2033 symmetric AI,defence,days,3.0,5.0,11.0
+S2,2033 symmetric AI,defence,spend_total_musd,8.920833329796453,16.99538366739865,34.57849373255152
+S2,2033 symmetric AI,defence,spend_per_day_musd,2.0498287927667227,3.2426798187466495,4.791766878889234
+S2,2033 symmetric AI,defence,loss_B_musd,24.77187428355036,50.2718528083606,79.78079687276156
+S2,2033 symmetric AI,defence,loss_R_musd,31.228630664961713,72.05229742569799,125.47234674328008
+S2,2033 symmetric AI,defence,cost_exchange,0.4802477739475676,1.0351543103648964,2.1609211109665036
+S2,2033 symmetric AI,defence,spend_per_red_gun_destroyed_kusd,385.72330359624596,775.5447511070795,1627.8424291668734
+S2,2033 symmetric AI,defence,destroyed_value_per_day_musd,12.803653106089154,22.521890774037978,38.97868031937334
+S2,2033 symmetric AI,defence,burn_per_day_B_musd,7.1809749225000425,12.393940303046131,22.015388847517677
+S2,2033 symmetric AI,defence,n_star_B,4.0,6.0,9.0
+S2,2033 symmetric AI,defence,cost_per_kill_A_kusd,248.86607642571983,513.584926101603,1060.4721197706199
+S2,2033 symmetric AI,defence,p_kill_B,0.10509863557125565,0.1835843421592013,0.2903374413076449
 S2,2033 symmetric AI,defence,p_time_B,0.8198933322439315,0.889180537962992,0.9316464632723994
-S2,2033 symmetric AI,defence,psi_B,0.1881117231137231,0.31499145787801897,0.4707771833328658
-S2,2033 symmetric AI,defence,drone_share_B,0.2735630264078315,0.4003331267939718,0.5695010726032383
-S2,2033 symmetric AI,defence,fire_ratio,0.32443188492896746,0.6081267802200827,1.1632509455832825
-S2,2033 symmetric AI,defence,p_blue_wins,,0.32075,
-S2,2033 symmetric AI,defence,p_red_wins,,0.67925,
+S2,2033 symmetric AI,defence,psi_B,0.12147923358273684,0.20763093147468792,0.325769854929839
+S2,2033 symmetric AI,defence,drone_share_B,0.35236714359251886,0.497873424009422,0.6642055484262192
+S2,2033 symmetric AI,defence,fire_ratio,0.3359949722714797,0.600803624598615,1.1281877997974674
+S2,2033 symmetric AI,defence,p_blue_wins,,0.31575,
+S2,2033 symmetric AI,defence,p_red_wins,,0.68425,
 S2,2033 symmetric AI,defence,p_undecided,,0.0,
-S2,2033 symmetric AI,defence,ammo_bound_B,,0.1581531797919272,
-S2,2033 symmetric AI,defence,mean_cost_battle_musd,,73.31998703198569,
-S3,2036 symmetric AI,defence,days,4.0,7.0,14.0
-S3,2036 symmetric AI,defence,spend_total_musd,4.629784484783973,8.912362089994605,19.568381696489926
-S3,2036 symmetric AI,defence,spend_per_day_musd,0.8188121185477121,1.3547522213283791,2.0881295188685716
-S3,2036 symmetric AI,defence,loss_B_musd,31.490574448627314,57.97616586244083,90.53376394674035
-S3,2036 symmetric AI,defence,loss_R_musd,36.05998813414122,84.96028394827314,145.88763042669768
-S3,2036 symmetric AI,defence,cost_exchange,0.5345182316765391,1.226758405290802,2.6663850914743983
-S3,2036 symmetric AI,defence,spend_per_red_gun_destroyed_kusd,176.2986745482972,347.9361892935844,764.0046631143333
-S3,2036 symmetric AI,defence,destroyed_value_per_day_musd,11.434379262334913,20.454834034731462,36.54213258834506
-S3,2036 symmetric AI,defence,burn_per_day_B_musd,5.189502784467669,9.63541830453886,18.50599129742944
-S3,2036 symmetric AI,defence,n_star_B,5.0,9.0,14.0
-S3,2036 symmetric AI,defence,cost_per_kill_A_kusd,104.23973040600418,208.38946246285957,448.1228037359916
-S3,2036 symmetric AI,defence,p_kill_B,0.16208969307140217,0.2754546860942789,0.4298357376989082
+S2,2033 symmetric AI,defence,ammo_bound_B,,0.12133429588600253,
+S2,2033 symmetric AI,defence,mean_cost_battle_musd,,69.85784097519209,
+S3,2036 symmetric AI,defence,days,3.0,5.0,10.0
+S3,2036 symmetric AI,defence,spend_total_musd,6.897937992976454,13.301144761205443,27.646028068157776
+S3,2036 symmetric AI,defence,spend_per_day_musd,1.7560395454226134,2.909531885820403,4.403436758768892
+S3,2036 symmetric AI,defence,loss_B_musd,23.89553439994795,47.39918914276397,77.31364781417658
+S3,2036 symmetric AI,defence,loss_R_musd,31.41050697682607,69.61826148098837,121.93895043606129
+S3,2036 symmetric AI,defence,cost_exchange,0.4912674353015174,1.1158576711718848,2.365903855598233
+S3,2036 symmetric AI,defence,spend_per_red_gun_destroyed_kusd,310.18127703685195,623.1850668483369,1377.1461223816082
+S3,2036 symmetric AI,defence,destroyed_value_per_day_musd,13.732055719840773,24.67619101308933,43.037829031708014
+S3,2036 symmetric AI,defence,burn_per_day_B_musd,7.124631697503474,12.792205474503884,22.849578411032752
+S3,2036 symmetric AI,defence,n_star_B,3.0,5.0,8.0
+S3,2036 symmetric AI,defence,cost_per_kill_A_kusd,201.32409972212287,414.4742754464513,891.0836066513336
+S3,2036 symmetric AI,defence,p_kill_B,0.10304598775492224,0.18242241077708757,0.30041397870528075
 S3,2036 symmetric AI,defence,p_time_B,0.8097747415928607,0.8839559139784539,0.9287497667810637
-S3,2036 symmetric AI,defence,psi_B,0.18573297840988776,0.3138087990646966,0.4827343197325039
-S3,2036 symmetric AI,defence,drone_share_B,0.2833363306444473,0.4166735064247832,0.5851313871517542
-S3,2036 symmetric AI,defence,fire_ratio,0.30436781686381986,0.6017259393572504,1.1888031237793253
-S3,2036 symmetric AI,defence,p_blue_wins,,0.32175,
-S3,2036 symmetric AI,defence,p_red_wins,,0.67825,
+S3,2036 symmetric AI,defence,psi_B,0.11842462602393415,0.2073726365320992,0.34066165671663634
+S3,2036 symmetric AI,defence,drone_share_B,0.36483157141399164,0.5187014893337758,0.681031782081818
+S3,2036 symmetric AI,defence,fire_ratio,0.31774637153621654,0.6017504962596443,1.1396218086376546
+S3,2036 symmetric AI,defence,p_blue_wins,,0.3225,
+S3,2036 symmetric AI,defence,p_red_wins,,0.6775,
 S3,2036 symmetric AI,defence,p_undecided,,0.0,
-S3,2036 symmetric AI,defence,ammo_bound_B,,0.10180295799593896,
-S3,2036 symmetric AI,defence,mean_cost_battle_musd,,68.92235504242721,
-S4,2036 Blue-only AI,defence,days,3.0,6.0,12.049999999999727
-S4,2036 Blue-only AI,defence,spend_total_musd,4.369229197904827,8.574905522845985,18.319375768046278
-S4,2036 Blue-only AI,defence,spend_per_day_musd,0.9033445051263987,1.5192412139038771,2.37605350287747
-S4,2036 Blue-only AI,defence,loss_B_musd,0.0,10.99501608035289,32.18720218500168
-S4,2036 Blue-only AI,defence,loss_R_musd,65.90599394227947,104.09604580271144,155.56848031277192
-S4,2036 Blue-only AI,defence,cost_exchange,2.373465148064668,5.0769819048527465,12.905063430251328
-S4,2036 Blue-only AI,defence,spend_per_red_gun_destroyed_kusd,132.63316046318585,264.24488576536777,523.8499552757694
-S4,2036 Blue-only AI,defence,destroyed_value_per_day_musd,10.676285373166213,19.754325227808675,36.94595943296622
-S4,2036 Blue-only AI,defence,burn_per_day_B_musd,1.6619202784845748,3.427923043087809,6.437562060654198
-S4,2036 Blue-only AI,defence,n_star_B,4.0,7.0,12.0
-S4,2036 Blue-only AI,defence,cost_per_kill_A_kusd,73.61328708271809,147.0827736781642,319.2887238687467
-S4,2036 Blue-only AI,defence,p_kill_B,0.19228522269370374,0.3077026058830155,0.4525582708128435
+S3,2036 symmetric AI,defence,ammo_bound_B,,0.08788031231431967,
+S3,2036 symmetric AI,defence,mean_cost_battle_musd,,63.425955942737765,
+S4,2036 Blue-only AI,defence,days,2.0,4.0,9.0
+S4,2036 Blue-only AI,defence,spend_total_musd,6.872857113979633,13.220903520796186,28.590938120321372
+S4,2036 Blue-only AI,defence,spend_per_day_musd,1.820373447838381,3.051604664143297,4.764335450025609
+S4,2036 Blue-only AI,defence,loss_B_musd,0.0,8.845767619098236,27.440373538917274
+S4,2036 Blue-only AI,defence,loss_R_musd,52.447334735880936,86.30104095008389,133.71037187512746
+S4,2036 Blue-only AI,defence,cost_exchange,1.7188078999927836,3.6322544559295387,8.485656453996404
+S4,2036 Blue-only AI,defence,spend_per_red_gun_destroyed_kusd,245.28253639120513,485.39330186948246,1030.2092095469663
+S4,2036 Blue-only AI,defence,destroyed_value_per_day_musd,11.42994027359142,21.41153169132709,40.143232356467294
+S4,2036 Blue-only AI,defence,burn_per_day_B_musd,2.905806576299442,5.173937173715139,8.736040471403307
+S4,2036 Blue-only AI,defence,n_star_B,3.0,4.0,7.0
+S4,2036 Blue-only AI,defence,cost_per_kill_A_kusd,144.4916025101111,302.6325586833576,672.3952399295715
+S4,2036 Blue-only AI,defence,p_kill_B,0.12024709023640975,0.198093073443741,0.3102768377608063
 S4,2036 Blue-only AI,defence,p_time_B,0.945953678615485,0.9685723871295442,0.9813990379956918
-S4,2036 Blue-only AI,defence,psi_B,0.20030976194844272,0.31793719675853144,0.466444047257082
-S4,2036 Blue-only AI,defence,drone_share_B,0.2724399391605983,0.38778449217779476,0.5395611649418894
-S4,2036 Blue-only AI,defence,fire_ratio,0.5352401576683624,1.1533715399258329,2.396054428732012
+S4,2036 Blue-only AI,defence,psi_B,0.12477651996237303,0.20509977074349645,0.3209365920992114
+S4,2036 Blue-only AI,defence,drone_share_B,0.35612437848648343,0.4929371318446756,0.6481029604152793
+S4,2036 Blue-only AI,defence,fire_ratio,0.5925022260717926,1.3249610233152755,2.73618552646308
 S4,2036 Blue-only AI,defence,p_blue_wins,,1.0,
 S4,2036 Blue-only AI,defence,p_red_wins,,0.0,
 S4,2036 Blue-only AI,defence,p_undecided,,0.0,
-S4,2036 Blue-only AI,defence,ammo_bound_B,,0.06253824902343671,
-S4,2036 Blue-only AI,defence,mean_cost_battle_musd,,22.621968501375658,
-S5,"2036 Blue AI, contested EW",defence,days,7.0,14.0,33.0
-S5,"2036 Blue AI, contested EW",defence,spend_total_musd,10.329835856673443,22.316844849025458,56.08311022726219
-S5,"2036 Blue AI, contested EW",defence,spend_per_day_musd,1.0551392096916166,1.5902321109521966,2.277255036910887
-S5,"2036 Blue AI, contested EW",defence,loss_B_musd,11.97526087699886,37.67132558559206,87.8515211773793
-S5,"2036 Blue AI, contested EW",defence,loss_R_musd,86.88591072247553,133.15618538385104,203.46910194569986
-S5,"2036 Blue AI, contested EW",defence,cost_exchange,1.1065116367444527,2.1470929494175017,4.629223699250489
-S5,"2036 Blue AI, contested EW",defence,spend_per_red_gun_destroyed_kusd,273.96396393778315,532.1457853872072,1077.9339826090595
-S5,"2036 Blue AI, contested EW",defence,destroyed_value_per_day_musd,6.739412557880942,11.977351934778309,21.526046152237143
-S5,"2036 Blue AI, contested EW",defence,burn_per_day_B_musd,2.54907637084113,4.169780963721454,6.904975754851055
-S5,"2036 Blue AI, contested EW",defence,n_star_B,8.0,13.0,20.0
-S5,"2036 Blue AI, contested EW",defence,cost_per_kill_A_kusd,179.09512138219938,340.85585056077605,672.1115951442849
-S5,"2036 Blue AI, contested EW",defence,p_kill_B,0.1629166118173933,0.2508623737831062,0.3635689728407608
+S4,2036 Blue-only AI,defence,ammo_bound_B,,0.03434765414324238,
+S4,2036 Blue-only AI,defence,mean_cost_battle_musd,,25.835977972057147,
+S5,"2036 Blue AI, contested EW",defence,days,6.0,14.0,32.0
+S5,"2036 Blue AI, contested EW",defence,spend_total_musd,18.428235407272123,41.12174393061216,101.55066012209062
+S5,"2036 Blue AI, contested EW",defence,spend_per_day_musd,1.944368529210962,3.0118329843681666,4.450638760850006
+S5,"2036 Blue AI, contested EW",defence,loss_B_musd,11.901288092626684,38.03290127701185,88.91012677957168
+S5,"2036 Blue AI, contested EW",defence,loss_R_musd,77.40762206994415,125.10120989938562,194.31428740362523
+S5,"2036 Blue AI, contested EW",defence,cost_exchange,0.786797248023473,1.513182228407934,3.044325854944944
+S5,"2036 Blue AI, contested EW",defence,spend_per_red_gun_destroyed_kusd,527.990817551881,1053.85540040717,2111.552514656919
+S5,"2036 Blue AI, contested EW",defence,destroyed_value_per_day_musd,6.757580991712384,11.822878935672625,20.92324457341784
+S5,"2036 Blue AI, contested EW",defence,burn_per_day_B_musd,3.843534344972733,5.81951020172406,8.753570445254388
+S5,"2036 Blue AI, contested EW",defence,n_star_B,5.0,8.0,12.0
+S5,"2036 Blue AI, contested EW",defence,cost_per_kill_A_kusd,370.13061798464236,719.7455394124447,1444.0833073359752
+S5,"2036 Blue AI, contested EW",defence,p_kill_B,0.10446945585484127,0.1636986857855969,0.24666788656645094
 S5,"2036 Blue AI, contested EW",defence,p_time_B,0.9218838090157316,0.9537365679354436,0.9717109410023285
-S5,"2036 Blue AI, contested EW",defence,psi_B,0.1722147753278821,0.26347341335402,0.3811979819202116
-S5,"2036 Blue AI, contested EW",defence,drone_share_B,0.24149618570511092,0.35092215622058015,0.4980859910727843
-S5,"2036 Blue AI, contested EW",defence,fire_ratio,0.521775236145148,0.9689615943468861,1.7550335779683566
-S5,"2036 Blue AI, contested EW",defence,p_blue_wins,,0.9645,
-S5,"2036 Blue AI, contested EW",defence,p_red_wins,,0.0355,
+S5,"2036 Blue AI, contested EW",defence,psi_B,0.11041678010283973,0.17230298368984936,0.2582124289421116
+S5,"2036 Blue AI, contested EW",defence,drone_share_B,0.31944483527735534,0.44212362237768466,0.5821233006224161
+S5,"2036 Blue AI, contested EW",defence,fire_ratio,0.6329116718183266,1.1701198067022607,2.1304440059190437
+S5,"2036 Blue AI, contested EW",defence,p_blue_wins,,0.959,
+S5,"2036 Blue AI, contested EW",defence,p_red_wins,,0.041,
 S5,"2036 Blue AI, contested EW",defence,p_undecided,,0.0,
-S5,"2036 Blue AI, contested EW",defence,ammo_bound_B,,0.2171641715200886,
-S5,"2036 Blue AI, contested EW",defence,mean_cost_battle_musd,,68.73459434188997,
+S5,"2036 Blue AI, contested EW",defence,ammo_bound_B,,0.09659639117701783,
+S5,"2036 Blue AI, contested EW",defence,mean_cost_battle_musd,,90.72434426743631,
 O1,offence 2025,offence,days,11.0,25.0,70.0
 O1,offence 2025,offence,spend_total_musd,17.090217509224143,44.11836381122721,128.30092918890153
 O1,offence 2025,offence,spend_per_day_musd,1.0400289955615767,1.7634102960366325,2.691841338658714
@@ -147,69 +147,69 @@ O1,offence 2025,offence,p_undecided,,0.003,
 O1,offence 2025,offence,ammo_bound_B,,0.14391718627931238,
 O1,offence 2025,offence,mean_cost_battle_musd,,235.6036714719211,
 O1,offence 2025,offence,p_superiority_in_window,,0.22375,
-O2,offence 2036 symmetric AI,offence,days,3.0,5.0,10.0
-O2,offence 2036 symmetric AI,offence,spend_total_musd,1.9691225830164658,3.9237031068957315,8.280954648467098
-O2,offence 2036 symmetric AI,offence,spend_per_day_musd,0.4928006575954669,0.8015505147516887,1.2625104999506362
-O2,offence 2036 symmetric AI,offence,loss_B_musd,65.51204611516532,111.8086046951197,166.01671702729556
-O2,offence 2036 symmetric AI,offence,loss_R_musd,13.808781048354941,36.03090015372727,66.42331571731889
-O2,offence 2036 symmetric AI,offence,cost_exchange,0.11976304438768005,0.306254192923184,0.6828229242151422
-O2,offence 2036 symmetric AI,offence,spend_per_red_gun_destroyed_kusd,167.21282355021938,361.0820495869984,870.3762638564338
-O2,offence 2036 symmetric AI,offence,destroyed_value_per_day_musd,16.235484889069973,29.549933077158073,52.05126655667301
-O2,offence 2036 symmetric AI,offence,burn_per_day_B_musd,11.899054759274579,22.846705461196464,42.8615593182904
-O2,offence 2036 symmetric AI,offence,n_star_B,5.0,9.0,14.0
-O2,offence 2036 symmetric AI,offence,cost_per_kill_A_kusd,104.33207873365384,209.3675302554521,446.7839204810094
-O2,offence 2036 symmetric AI,offence,p_kill_B,0.15814019470647106,0.27399855636640075,0.4267573930179354
+O2,offence 2036 symmetric AI,offence,days,2.0,4.0,7.0
+O2,offence 2036 symmetric AI,offence,spend_total_musd,3.2449304859272146,6.237634780200761,12.609096753822113
+O2,offence 2036 symmetric AI,offence,spend_per_day_musd,1.0499433359755561,1.6939135218736734,2.6352313153666556
+O2,offence 2036 symmetric AI,offence,loss_B_musd,52.063223426375025,91.91851778957387,141.15919840306682
+O2,offence 2036 symmetric AI,offence,loss_R_musd,12.51386409199857,32.398667683403275,58.36196469132147
+O2,offence 2036 symmetric AI,offence,cost_exchange,0.12327781128434744,0.3211804471339993,0.7102824821896971
+O2,offence 2036 symmetric AI,offence,spend_per_red_gun_destroyed_kusd,290.8113482543439,632.4776523063808,1557.4414232229226
+O2,offence 2036 symmetric AI,offence,destroyed_value_per_day_musd,18.8179818571754,33.02388295145758,57.44469609688696
+O2,offence 2036 symmetric AI,offence,burn_per_day_B_musd,14.456152603216358,25.847141673816033,46.997261775136224
+O2,offence 2036 symmetric AI,offence,n_star_B,3.0,5.0,8.0
+O2,offence 2036 symmetric AI,offence,cost_per_kill_A_kusd,197.95774611918208,410.74688518273143,903.7103817649114
+O2,offence 2036 symmetric AI,offence,p_kill_B,0.10119528737935513,0.181906937727997,0.29806364662052914
 O2,offence 2036 symmetric AI,offence,p_time_B,0.8127545275069631,0.8836422073548779,0.9266916214380948
-O2,offence 2036 symmetric AI,offence,psi_B,0.1829480018299431,0.31220589437938473,0.48160680622211977
-O2,offence 2036 symmetric AI,offence,drone_share_B,0.281682016508849,0.4145817194946136,0.573917401056541
-O2,offence 2036 symmetric AI,offence,fire_ratio,0.8626515844906129,1.7360606926458773,3.4630264755999196
-O2,offence 2036 symmetric AI,offence,p_blue_wins,,0.257,
-O2,offence 2036 symmetric AI,offence,p_red_wins,,0.743,
+O2,offence 2036 symmetric AI,offence,psi_B,0.11714551651207666,0.20666648806074525,0.33701150161197285
+O2,offence 2036 symmetric AI,offence,drone_share_B,0.36228253796877175,0.516903052044503,0.6751402658995385
+O2,offence 2036 symmetric AI,offence,fire_ratio,0.8473098777627158,1.6344314828562572,3.118491569522684
+O2,offence 2036 symmetric AI,offence,p_blue_wins,,0.327,
+O2,offence 2036 symmetric AI,offence,p_red_wins,,0.673,
 O2,offence 2036 symmetric AI,offence,p_undecided,,0.0,
 O2,offence 2036 symmetric AI,offence,ammo_bound_B,,0.0,
-O2,offence 2036 symmetric AI,offence,mean_cost_battle_musd,,117.50795634699847,
-O2,offence 2036 symmetric AI,offence,p_superiority_in_window,,0.257,
-O3,offence 2036 Blue-only AI,offence,days,3.0,5.0,11.0
-O3,offence 2036 Blue-only AI,offence,spend_total_musd,2.141720359799345,4.208600659316215,9.352086926342547
-O3,offence 2036 Blue-only AI,offence,spend_per_day_musd,0.4993390048479457,0.8433021575070334,1.3356483773778143
-O3,offence 2036 Blue-only AI,offence,loss_B_musd,4.039153885254845,21.328610153055926,56.413721608114045
-O3,offence 2036 Blue-only AI,offence,loss_R_musd,29.942964763034993,50.471671706147376,76.66628942827204
-O3,offence 2036 Blue-only AI,offence,cost_exchange,0.8132453819115205,1.9233296914764648,5.939345884382667
-O3,offence 2036 Blue-only AI,offence,spend_per_red_gun_destroyed_kusd,131.47779222150416,268.3880896302179,565.3750456943292
-O3,offence 2036 Blue-only AI,offence,destroyed_value_per_day_musd,7.37144770068572,14.277142216506766,26.214927998515183
-O3,offence 2036 Blue-only AI,offence,burn_per_day_B_musd,1.932940900265588,4.9969526081246105,10.537503237924273
-O3,offence 2036 Blue-only AI,offence,n_star_B,4.0,7.0,12.0
-O3,offence 2036 Blue-only AI,offence,cost_per_kill_A_kusd,73.56629083435706,149.29742872281633,315.577208121813
-O3,offence 2036 Blue-only AI,offence,p_kill_B,0.19351384838670388,0.306736750174918,0.45399335965330706
+O2,offence 2036 symmetric AI,offence,mean_cost_battle_musd,,100.57828063323988,
+O2,offence 2036 symmetric AI,offence,p_superiority_in_window,,0.327,
+O3,offence 2036 Blue-only AI,offence,days,2.0,4.0,8.0
+O3,offence 2036 Blue-only AI,offence,spend_total_musd,3.3608323753035774,6.56012557083818,13.90761505958404
+O3,offence 2036 Blue-only AI,offence,spend_per_day_musd,0.9792160899401053,1.6411579169345565,2.5946010474357544
+O3,offence 2036 Blue-only AI,offence,loss_B_musd,3.4713101103378055,17.40037704633822,46.98720462391708
+O3,offence 2036 Blue-only AI,offence,loss_R_musd,23.54890216867225,42.40754118040135,67.50608867428402
+O3,offence 2036 Blue-only AI,offence,cost_exchange,0.7232019573184368,1.7231105332156051,4.830983205615569
+O3,offence 2036 Blue-only AI,offence,spend_per_red_gun_destroyed_kusd,238.29411069487307,489.72045787255206,1092.4669697609156
+O3,offence 2036 Blue-only AI,offence,destroyed_value_per_day_musd,7.688081246000902,14.80793498353226,27.29074201415223
+O3,offence 2036 Blue-only AI,offence,burn_per_day_B_musd,2.6102216779032767,5.841959314991548,11.633990029799413
+O3,offence 2036 Blue-only AI,offence,n_star_B,3.0,4.0,7.0
+O3,offence 2036 Blue-only AI,offence,cost_per_kill_A_kusd,146.61584419255826,307.5418669112702,675.8051640206517
+O3,offence 2036 Blue-only AI,offence,p_kill_B,0.12070176475092075,0.19839314844455302,0.30846477350026197
 O3,offence 2036 Blue-only AI,offence,p_time_B,0.9464564044123719,0.9688392685314283,0.9810967478115494
-O3,offence 2036 Blue-only AI,offence,psi_B,0.20070164959785855,0.31683281977487276,0.46945942845707606
-O3,offence 2036 Blue-only AI,offence,drone_share_B,0.26995205181948695,0.3881895126348166,0.5299829138202256
-O3,offence 2036 Blue-only AI,offence,fire_ratio,1.5196497813636527,2.8019038544774295,5.109233938355303
+O3,offence 2036 Blue-only AI,offence,psi_B,0.12494370237206175,0.204869645451985,0.31880661771961794
+O3,offence 2036 Blue-only AI,offence,drone_share_B,0.3582954694988695,0.49292398477900257,0.6413978064705282
+O3,offence 2036 Blue-only AI,offence,fire_ratio,1.7398942140957117,3.085981540278352,5.6777322993122725
 O3,offence 2036 Blue-only AI,offence,p_blue_wins,,1.0,
 O3,offence 2036 Blue-only AI,offence,p_red_wins,,0.0,
 O3,offence 2036 Blue-only AI,offence,p_undecided,,0.0,
 O3,offence 2036 Blue-only AI,offence,ammo_bound_B,,0.0,
-O3,offence 2036 Blue-only AI,offence,mean_cost_battle_musd,,29.437879420901094,
+O3,offence 2036 Blue-only AI,offence,mean_cost_battle_musd,,27.35038882944161,
 O3,offence 2036 Blue-only AI,offence,p_superiority_in_window,,0.99975,
-O4,"offence 2036 Blue AI, contested EW",offence,days,5.0,11.0,26.0
-O4,"offence 2036 Blue AI, contested EW",offence,spend_total_musd,4.729847690976354,10.16780264934781,25.221200412833657
-O4,"offence 2036 Blue AI, contested EW",offence,spend_per_day_musd,0.5907498879488526,0.9123906302631571,1.409161962297997
-O4,"offence 2036 Blue AI, contested EW",offence,loss_B_musd,20.292907168201456,60.363941048780035,147.57782567173496
-O4,"offence 2036 Blue AI, contested EW",offence,loss_R_musd,38.46947894462151,61.80909123042669,95.86647536914802
-O4,"offence 2036 Blue AI, contested EW",offence,cost_exchange,0.400656161272375,0.8602188702764787,2.0435771647998338
-O4,"offence 2036 Blue AI, contested EW",offence,spend_per_red_gun_destroyed_kusd,263.3969410836451,522.0211098379826,1092.8721725977955
-O4,"offence 2036 Blue AI, contested EW",offence,destroyed_value_per_day_musd,5.959930650095519,10.965921377256343,19.379639224004695
-O4,"offence 2036 Blue AI, contested EW",offence,burn_per_day_B_musd,3.1035963906834096,6.222957723173948,11.892968838242435
-O4,"offence 2036 Blue AI, contested EW",offence,n_star_B,8.0,13.0,19.0
-O4,"offence 2036 Blue AI, contested EW",offence,cost_per_kill_A_kusd,176.80934066007214,339.7692611567829,689.3418994920609
-O4,"offence 2036 Blue AI, contested EW",offence,p_kill_B,0.16313232953224516,0.25084180076532026,0.3617024214468361
+O4,"offence 2036 Blue AI, contested EW",offence,days,5.0,11.0,27.049999999999727
+O4,"offence 2036 Blue AI, contested EW",offence,spend_total_musd,8.172609764280772,18.506135864867808,48.008729509153845
+O4,"offence 2036 Blue AI, contested EW",offence,spend_per_day_musd,1.1009324568911347,1.6686334115081143,2.5598422117402353
+O4,"offence 2036 Blue AI, contested EW",offence,loss_B_musd,19.464653867793423,60.40947626764604,151.51893005069329
+O4,"offence 2036 Blue AI, contested EW",offence,loss_R_musd,33.94994895019178,57.7915946475658,94.12213618515071
+O4,"offence 2036 Blue AI, contested EW",offence,cost_exchange,0.33938620535332226,0.6994064736013179,1.6039642550642867
+O4,"offence 2036 Blue AI, contested EW",offence,spend_per_red_gun_destroyed_kusd,502.68779802739084,1032.1293086953929,2200.922681197256
+O4,"offence 2036 Blue AI, contested EW",offence,destroyed_value_per_day_musd,5.756899487621914,10.575383007999623,19.126500406951052
+O4,"offence 2036 Blue AI, contested EW",offence,burn_per_day_B_musd,3.920460582940616,7.00006128055655,12.793757855228066
+O4,"offence 2036 Blue AI, contested EW",offence,n_star_B,5.0,8.0,12.0
+O4,"offence 2036 Blue AI, contested EW",offence,cost_per_kill_A_kusd,372.61219391593306,713.7031466492422,1455.094388666645
+O4,"offence 2036 Blue AI, contested EW",offence,p_kill_B,0.10421470263102395,0.16418278815628407,0.24011692580578692
 O4,"offence 2036 Blue AI, contested EW",offence,p_time_B,0.9220822420826974,0.9542591984345807,0.9717067315750659
-O4,"offence 2036 Blue AI, contested EW",offence,psi_B,0.17245337279958967,0.26369754709018933,0.37847779546635946
-O4,"offence 2036 Blue AI, contested EW",offence,drone_share_B,0.23272488997517674,0.33935281699181874,0.4673180318516121
-O4,"offence 2036 Blue AI, contested EW",offence,fire_ratio,1.2722756044247365,2.1060056441460873,3.4549458246066833
-O4,"offence 2036 Blue AI, contested EW",offence,p_blue_wins,,0.983,
-O4,"offence 2036 Blue AI, contested EW",offence,p_red_wins,,0.017,
+O4,"offence 2036 Blue AI, contested EW",offence,psi_B,0.1101538592292786,0.17245889648136947,0.2520576560452605
+O4,"offence 2036 Blue AI, contested EW",offence,drone_share_B,0.31108300411329515,0.4379747649360081,0.5767709293339122
+O4,"offence 2036 Blue AI, contested EW",offence,fire_ratio,1.5814485173554973,2.5474338704425623,4.093677791845111
+O4,"offence 2036 Blue AI, contested EW",offence,p_blue_wins,,0.98025,
+O4,"offence 2036 Blue AI, contested EW",offence,p_red_wins,,0.01975,
 O4,"offence 2036 Blue AI, contested EW",offence,p_undecided,,0.0,
 O4,"offence 2036 Blue AI, contested EW",offence,ammo_bound_B,,0.0,
-O4,"offence 2036 Blue AI, contested EW",offence,mean_cost_battle_musd,,80.59386624168461,
-O4,"offence 2036 Blue AI, contested EW",offence,p_superiority_in_window,,0.95575,
+O4,"offence 2036 Blue AI, contested EW",offence,mean_cost_battle_musd,,92.63300082444573,
+O4,"offence 2036 Blue AI, contested EW",offence,p_superiority_in_window,,0.94675,

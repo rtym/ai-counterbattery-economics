@@ -35,9 +35,9 @@ ERA = {
     # ISR sorties per enemy fire unit per day and the chance that a sortie finds it; only about a third of
     # UAV missions succeeded in 2022 (zabrodskyi2022); reconnaissance is "almost exclusively" UAV by 2025
     "sorties": {"2022": ((0.3, 0.6, 1.0), "zabrodskyi2022"), "2025": ((1.0, 2.0, 3.0), "watling2025"),
-                "ai": ((2.0, 4.0, 6.0), "assumption")},
+                "ai": ((3.0, 6.0, 10.0), "assumption")},
     "p_find": {"2022": ((0.15, 0.25, 0.35), "zabrodskyi2022"), "2025": ((0.20, 0.30, 0.40), "assumption"),
-               "ai": ((0.30, 0.45, 0.60), "assumption")},
+               "ai": ((0.40, 0.55, 0.70), "assumption")},
     # share of detected enemy fire units also attacked by strike drones (counter-battery depth 15-25 km needs
     # mid-range strike drones rather than short-range FPVs); share of drones reaching the target: 60-80 % of
     # Ukrainian FPVs fail to reach the target (watling2025)
@@ -85,6 +85,12 @@ COMMON = {
 # 155-mm HE round, USD. NATO: EUR 2,000 at the start of the full-scale invasion, EUR 8,000 later; Western
 # European production USD 5,000-10,000 (defensenews2024). The AI-era price comes from module C.
 C_ROUND = {"2022": ((2000, 2500, 3500), "defensenews2024"), "2025": ((4000, 6000, 9000), "defensenews2024")}
+# course-correcting fuze (the source of the AI-era cut in dispersion), USD per round on top of the round price:
+# Finland's FMS request of 2024 - 5,500 M1156A1 PGK fuzes for an estimated USD 70 M with related services, i.e.
+# about USD 12,700 each (militarnyi2024); the price falls along Wright's law with mass production. Only the
+# adopted share of rounds carries a fuze (phi before erosion: enemy EW does not refund the fuze).
+FUZE = {"price": ((9000, 12000, 13000), "militarnyi2024"), "lr": ((0.10, 0.15, 0.22), "way2022"),
+        "doublings": ((2, 3.5, 5), "assumption")}
 # strike drone able to reach guns 15-25 km deep, USD: above the FPV ceiling of USD 1,000 (cody2026), below
 # loitering munitions of the Lancet class; a modelling range
 C_FPV = {"2025": ((3000, 10000, 35000), "assumption")}
