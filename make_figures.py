@@ -76,7 +76,7 @@ def fig1():
         ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle="-|>", mutation_scale=9, color=DARK, lw=0.8))
 
     box(1, 30, 28, 20, "Module C: trajectories",
-        "7 AI functions (Table 1)\nadoption $\\varphi(t)$, logistic\nadversary erosion $\\varepsilon$\nWright's law for unit costs\n"
+        "7 AI functions (Table 1)\nadoption $w(t)$, logistic\nadversary erosion $\\varepsilon$\nWright's law for unit costs\n"
         "2025 $\\rightarrow$ 2033 / 2036", PALE)
     box(36, 30, 28, 20, "Module A: engagement",
         "$P(n)=e^{-(T+t_f)/\\tau}\\,\\psi(n)$\nshared aim bias $\\sigma_{TLE}$, $\\sigma_d$, $R_e$\nrounds every $\\Delta$, decoys\n"
@@ -86,7 +86,7 @@ def fig1():
         "daily steps, 4,000 draws\nculmination at 50 %", PALE)
     box(13, 3, 34, 19, "Field data (2022, 2025)",
         "RUSI field studies: kill-chain times,\nrounds per day, UAV attrition,\nFPV failure rate, decoys and dug-in guns;\n"
-        "prices: industry reports; FPV cost", "white")
+        "prices: industry reports;\nFPV and fuze costs", "white")
     box(53, 3, 34, 19, "Outputs",
         "duration to culmination, outcome\nBlue expenditure by category\nspend per Red gun destroyed\n"
         "cost-exchange ratio; PRCC ranks", "white")
@@ -104,7 +104,7 @@ def fig2():
     T = np.linspace(0.1, 40, 300)
     for tau, ls in ((10, ":"), (30, "--"), (120, "-")):
         a1.plot(T, np.exp(-T / tau), color=DARK, ls=ls, lw=1, label=f"dwell $\\tau$ = {tau} min")
-    for lo, hi, lab, x, y in ((20, 30, "HQ-routed\n(2022)", 25, 0.60), (3, 5, "organic\nUAV", 6.0, 0.03),
+    for lo, hi, lab, x, y in ((20, 30, "HQ-routed\n(2022)", 25, 0.90), (3, 5, "organic\nUAV", 6.0, 0.03),
                               (0.5, 2, "AI", 1.25, 0.03)):
         a1.axvspan(lo, hi, color=PALE, lw=0)
         a1.text(x, y, lab, ha="left" if lab == "organic\nUAV" else "center", va="bottom", fontsize=6.8, color=MID,
@@ -112,7 +112,7 @@ def fig2():
     a1.set_xlabel("detect-to-effect latency $T$, min")
     a1.set_ylabel("$e^{-T/\\tau}$: target still in place")
     a1.set_ylim(0, 1.02)
-    a1.legend(frameon=False, fontsize=7, loc="upper right")
+    a1.legend(frameon=False, fontsize=7, loc="center right", bbox_to_anchor=(1.0, 0.6))
     a1.set_title("(a) latency against target dwell", loc="left")
 
     R_e = np.array([P.COMMON["R_e"][0][1]])
@@ -158,7 +158,7 @@ def fig3():
         a1.text(y, 0.02, str(y), fontsize=7, ha="center", color=MID, bbox=dict(fc="white", ec="none", pad=0.5))
     a1.set_ylim(0, 1.02)
     a1.set_xlabel("year")
-    a1.set_ylabel("share of the AI gain realised, $\\varphi(t)$")
+    a1.set_ylabel("share of the AI gain realised, $w(t)$")
     a1.legend(frameon=False, fontsize=7, loc="upper left")
     a1.set_title("(a) adoption of the AI kill web", loc="left")
     for item, col, ls, lab in (("round", DARK, "-", "155-mm round"),
@@ -266,7 +266,7 @@ def fig5():
 NICE = {"B_T": "Blue latency $T$", "B_s_tle": "Blue location error", "B_s_disp": "Blue round dispersion",
         "B_p_real": "Blue decoy discrimination", "B_sorties": "Blue ISR sorties", "B_p_find": "Blue find rate",
         "B_fpv": "Blue drone cueing share", "B_p_reach": "Blue drone reach rate", "B_c_c2": "Blue AI/C2 cost",
-        "B_w": "Blue AI adoption $\\varphi$", "R_T": "Red latency", "R_tau": "Red dwell time",
+        "B_w": "Blue AI adoption $w$", "R_T": "Red latency", "R_tau": "Red dwell time",
         "R_conceal": "Red concealment (higher = easier to find)", "R_protect": "Red protection (higher = weaker)",
         "B_tau": "Blue dwell time", "B_conceal": "Blue concealment (higher = easier)", "c_R_e": "lethal radius $R_e$",
         "c_k_fire": "exposure from firing", "c_m_max": "missions per gun", "c_r_rep": "replacement rate",
